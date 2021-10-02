@@ -1,3 +1,4 @@
-<?php 
-     window.location.replace("http://www.example.com/index.php");
+<?php
+      $id = 2;
+      header("Location: index.php?id=$id&msg=succesfully redirect");
 ?>
